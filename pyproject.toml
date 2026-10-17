@@ -1,0 +1,15 @@
+[project]
+name = "attendance"
+version = "1.0.0"
+description = "Attendance - Directorate of Water Resources"
+requires-python = ">=3.10"
+dependencies = ["flet==0.28.3"]
+
+[tool.flet]
+org = "com.waterresources"
+product = "Attendance"
+company = "Directorate of Water Resources"
+copyright = "Programming: Eng. Mohannad Al-Nabulsi"
+
+[tool.flet.app]
+path = "."
